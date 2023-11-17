@@ -342,7 +342,7 @@ main{
     font-family: 'Poppins', sans-serif;
   }
   .form-register .botons:hover{
-  background-color: var(--clr-red)
+  background-color: var(--clr-main)
   }
  /* hasta aqui /*
 
