@@ -278,8 +278,14 @@ main{
 }
 
 /* desde aqui */
+@media screen and (max-width: 600px) {
 
-
+    #contenedorform {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
 .form-register {
     width: 400px;
     background: var(--clr-main);
