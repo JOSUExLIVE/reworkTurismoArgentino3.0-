@@ -17,3 +17,5 @@ se utilizo algunos diseños de la libreria de notificaciones de tostadas de Js h
 para hacer la division de  los objetos de la tienda se necesito ayuda de https://flexboxfroggy.com/#es
 
 se busco color de la paletas de colores de la pagina https://htmlcolorcodes.com/es/
+
+para la validacion del mail se utilizo recursos de https://www.w3resource.com/javascript/form/email-validation.php

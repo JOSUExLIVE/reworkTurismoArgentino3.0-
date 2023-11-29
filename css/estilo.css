@@ -7,6 +7,7 @@
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
+    --clr-form: rgba(174, 87, 126, 0.733);
 }
 
 *{
@@ -300,17 +301,29 @@ height: 0;
     position: absolute;
     border: 0;
 }
-
+.formulario{
+    color: var(--clr-main);
+}
 /* desde aqui nuevos html*/
 @media screen and (max-width: 600px) {
 
-    #contenedorform {
+    #contenedorform,.formulario {
+        color: var(--clr-main);
         min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
 }
-.form-register {
+@media screen and (max-width: 400px) {
+
+    #contenedorform  {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.form-register .formulario{
+    
     width: 400px;
     background: var(--clr-main);
     padding: 30px;
@@ -365,17 +378,27 @@ height: 0;
     border-radius: 3px;
     padding: 12px;
     color: var(--clr-white);
-    margin: 36px 0;
+    margin: 30px 0;
     font-size: 16px;
     cursor: pointer;
     transition: all 280ms ease;
     font-family: 'Poppins', sans-serif;
   }
   .form-register .botons:hover{
-  background-color: var(--clr-main)
+  background-color: var(--clr-red)
   }
  /* hasta aqui /*
+/*
+warnings
+*/
+/* .warnings{
 
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: var(--clr-form);
+    padding-top: 20px;
+} */
 
 /* * MEDIA QUERIES * */
 
