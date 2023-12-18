@@ -1,3 +1,9 @@
+BackEnd
+link navegable del pythonanywhere
+https://www.pythonanywhere.com/user/defiproyecto/files/home/defiproyecto
+
+
+
 # Turismo-Argentino
 
 link de la pagina https://josuexlive.github.io/reworkTurismoArgentino3.0-/
@@ -19,3 +25,4 @@ para hacer la division de  los objetos de la tienda se necesito ayuda de https:/
 se busco color de la paletas de colores de la pagina https://htmlcolorcodes.com/es/
 
 para la validacion del mail se utilizo recursos de https://www.w3resource.com/javascript/form/email-validation.php
+
